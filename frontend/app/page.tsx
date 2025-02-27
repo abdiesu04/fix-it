@@ -50,6 +50,7 @@ export default function Home() {
   const [showUpload, setShowUpload] = useState(false);
   const [lastSectionId, setLastSectionId] = useState<string>('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showAuthModal, setShowAuthModal] = useState(false);
 
   // Check authentication status on mount
   useEffect(() => {
@@ -89,6 +90,15 @@ export default function Home() {
     setLastSectionId(sectionId);
     setShowUpload(false);
     // You can add a success notification here
+  };
+
+  const handleButtonClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (isLoggedIn) {
+      window.location.href = '/quiz';
+    } else {
+      setShowAuthModal(true);
+    }
   };
 
   return (
@@ -363,9 +373,9 @@ export default function Home() {
                   className="btn-primary glow-effect flex items-center justify-center"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => setIsAuthModalOpen(true)}
+                  onClick={handleButtonClick}
                 >
-                  <span>Unlock My Brain's Superpowers</span>
+                  <span>Get Started</span>
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -374,13 +384,13 @@ export default function Home() {
                   className="btn-secondary flex items-center justify-center"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => isLoggedIn ? setShowUpload(true) : setIsAuthModalOpen(true)}
+                  onClick={handleButtonClick}
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  {isLoggedIn ? 'Upload PDF' : 'Watch the Magic'}
+                  Upload PDF
                 </motion.button>
               </motion.div>
             </motion.div>
@@ -686,6 +696,21 @@ export default function Home() {
           </div>
         </motion.div>
       </footer>
+
+      {/* Auth Modal */}
+      <AuthModal 
+        isOpen={showAuthModal} 
+        onClose={() => {
+          setShowAuthModal(false);
+          // Check auth status after modal closes
+          const token = localStorage.getItem('authToken');
+          const storedEmail = localStorage.getItem('userEmail');
+          if (token && storedEmail) {
+            setIsLoggedIn(true);
+            setUserEmail(storedEmail);
+          }
+        }} 
+      />
     </div>
   );
 }
