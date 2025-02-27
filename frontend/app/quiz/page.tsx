@@ -122,6 +122,12 @@ export default function QuizPage() {
     setSelectedSection(sectionId);
     localStorage.setItem('lastSectionId', sectionId);
     await fetchQuiz(sectionId);
+    
+    // Scroll to top of page
+    window.scrollTo({
+      top: 200,
+      behavior: 'smooth'
+    });
   };
 
   const handleDragOver = (e: React.DragEvent) => {
