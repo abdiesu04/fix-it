@@ -481,6 +481,14 @@ export default function QuizPage() {
       setShowTopics(true);
       setShowModal(false);
       
+      // Scroll to top with offset for navbar
+      setTimeout(() => {
+        window.scrollTo({
+          top: 100, // Fixed offset for navbar
+          behavior: 'smooth'
+        });
+      }, 100); // Small delay to ensure content is rendered
+      
     } catch (err) {
       console.error('Topic fetch error:', err);
       setError(err instanceof Error ? err.message : 'Failed to fetch topics');
