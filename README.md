@@ -5,34 +5,24 @@ Fix-IT is an innovative web application that transforms your learning experience
 ## 🎥 Demo
 
 <div align="center">
-  <a href="https://youtu.be/ySjlmMeUvAI">
-    <img 
-      src="https://img.youtube.com/vi/ySjlmMeUvAI/maxresdefault.jpg" 
-      alt="Fix-IT Demo" 
-      style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
-      width="800"
-    >
-  </a>
-  
-  <h3>
-    <a href="https://youtu.be/ySjlmMeUvAI" style="text-decoration: none; color: #7C3AED;">
-      ▶️ Watch the Demo Video
-    </a>
-  </h3>
+  <img 
+    src="Untitled video - Made with Clipchamp (2).gif" 
+    alt="Fix-IT Demo" 
+    style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+    width="800"
+  >
 
   <details>
-    <summary>🖥️ Adjust Video Size</summary>
+    <summary>🖥️ Adjust Size</summary>
     <br/>
-    <a href="https://youtu.be/ySjlmMeUvAI">
-      <img 
-        src="https://img.youtube.com/vi/ySjlmMeUvAI/maxresdefault.jpg" 
-        alt="Fix-IT Demo (Small)" 
-        style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
-        width="400"
-      >
-    </a>
+    <img 
+      src="Untitled video - Made with Clipchamp (2).gif" 
+      alt="Fix-IT Demo (Small)" 
+      style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+      width="400"
+    >
     <br/>
-    <sup><i>👆 Click for smaller view</i></sup>
+    <sup><i>👆 Smaller view</i></sup>
   </details>
 </div>
 
