@@ -4,7 +4,9 @@ Fix-IT is an innovative web application that transforms your learning experience
 
 ## 🎥 Demo
 
-![Fix-IT Demo](public/Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif)
+<div align="center">
+  <img src="Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif" alt="Fix-IT Demo" width="100%">
+</div>
 
 ## ✨ Features
 
@@ -95,9 +97,6 @@ Fix-IT/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- Your Name - Initial work - [YourGitHub](https://github.com/abdiesu04)
 
 ## 🙏 Acknowledgments
 
