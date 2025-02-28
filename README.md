@@ -6,7 +6,7 @@ Fix-IT is an innovative web application that transforms your learning experience
 
 <div align="center">
   <img 
-    src="./public/Untitled%20video%20-%20Made%20with%20Clipchamp%20(2).gif" 
+    src="Untitled%20design.gif" 
     alt="Fix-IT Demo" 
     style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
     width="800"
