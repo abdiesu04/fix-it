@@ -4,7 +4,7 @@ Fix-IT is an innovative web application that transforms your learning experience
 
 ## 🎥 Demo
 
-Check out our [demo video](public/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4) to see Fix-IT in action!
+![Fix-IT Demo](public/Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif)
 
 ## ✨ Features
 
