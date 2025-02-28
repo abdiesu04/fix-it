@@ -6,7 +6,7 @@ Fix-IT is an innovative web application that transforms your learning experience
 
 <div align="center">
   <img 
-    src="Untitled%20design.gif" 
+    src="/public/Untitled design.gif" 
     alt="Fix-IT Demo" 
     style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
     width="800"
