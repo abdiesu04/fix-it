@@ -5,7 +5,15 @@ Fix-IT is an innovative web application that transforms your learning experience
 ## 🎥 Demo
 
 <div align="center">
-  <img src="Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif" alt="Fix-IT Demo" width="100%">
+  <a href="https://youtu.be/ySjlmMeUvAI">
+    <img src="https://img.youtube.com/vi/ySjlmMeUvAI/maxresdefault.jpg" alt="Fix-IT Demo" width="600">
+  </a>
+  
+  <h3>
+    <a href="https://youtu.be/ySjlmMeUvAI">
+      ▶️ Watch the Demo Video
+    </a>
+  </h3>
 </div>
 
 ## ✨ Features
